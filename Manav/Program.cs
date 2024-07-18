@@ -11,8 +11,16 @@ namespace Manav
         static void Main(string[] args)
         {
             Console.WriteLine("rüya manavına hoşgeldiniz".ToUpper());//metnin hepsini büyük harfle yazar
+            
+        Console.WriteLine("Elma = 2 TL");
+        Console.WriteLine("Armut = 3 TL");
+        Console.WriteLine("Çilek = 2 TL");
+        Console.WriteLine("Muz = 3 TL");
+        Console.WriteLine("Diğer bütün meyveler = 4 TL");
+        
+        Console.WriteLine("\nHangi meyveyi satın almak istersiniz? (Elma/Armut/Çilek/Muz/Diğer): ");
 
-            Console.WriteLine("Hangi meyveyi satın almak istiyorsunuz?");
+           
             string meyve = Console.ReadLine().ToLower(); //büyük harfle de değer girilse küçüğe çevirir
 
             int fiyat;
