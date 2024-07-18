@@ -43,7 +43,7 @@ namespace Manav
                     fiyat = 4;
                     break;
             }
-            //her iki yöntemde çalışır ancak basit bir yapı olduğu için switch case  daha pratiktir
+            //her iki yöntemde çalışır ancak basit bir yapı olduğu için switch case  daha pratiktir if tekrar tekrar tüm koşullara girer
             /*
               if (meyve == "elma")
         {
